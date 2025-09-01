@@ -1,0 +1,390 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaditya Law Group - Professional Legal Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-bg {
+            background: linear-gradient(rgba(8, 31, 73, 0.9), rgba(8, 31, 73, 0.9)), url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0d0b5816-bf28-493f-9073-10d96469d80a.png');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .advocate-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .advocate-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .contact-info a {
+            transition: all 0.3s ease;
+        }
+        
+        .contact-info a:hover {
+            color: #2563eb;
+            transform: translateX(5px);
+        }
+        
+        .service-card {
+            transition: all 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <div class="bg-blue-800 text-white px-4 py-3 rounded-lg flex items-center">
+                            <i class="fas fa-balance-scale text-2xl"></i>
+                            <span class="ml-2 font-bold text-xl">Aaditya Law Group</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-blue-800 font-medium transition-colors">Home</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-800 font-medium transition-colors">About</a>
+                    <a href="#team" class="text-gray-700 hover:text-blue-800 font-medium transition-colors">Our Team</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-800 font-medium transition-colors">Services</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-800 font-medium transition-colors">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="text-gray-700">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg text-white pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Aaditya Law Group</h1>
+                <p class="text-xl md:text-2xl mb-8 text-blue-200">Excellence in Legal Representation & Justice</p>
+                <div class="bg-white text-gray-800 p-8 rounded-lg max-w-2xl mx-auto shadow-2xl">
+                    <h2 class="text-2xl font-semibold mb-4 text-blue-800">Aditya Tiwari</h2>
+                    <p class="mb-4 text-gray-600 font-medium">Senior Advocate & Founding Partner</p>
+                    <div class="space-y-3 contact-info">
+                        <p class="flex items-center justify-center">
+                            <i class="fas fa-phone mr-3 text-blue-800"></i>
+                            <a href="tel:9415450478" class="hover:text-blue-800 font-medium">+91 9415450478</a>
+                        </p>
+                        <p class="flex items-center justify-center">
+                            <i class="fas fa-envelope mr-3 text-blue-800"></i>
+                            <a href="mailto:Arya3270@gmail.com" class="hover:text-blue-800 font-medium">Arya3270@gmail.com</a>
+                        </p>
+                        <p class="flex items-center justify-center">
+                            <i class="fas fa-map-marker-alt mr-3 text-blue-800"></i>
+                            <span class="font-medium">Shop No.A1, Dayal Residency Chinhat Lucknow-226028</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Our Firm</h2>
+                <div class="w-20 h-1 bg-blue-800 mx-auto mb-8"></div>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Aaditya Law Group stands as a beacon of legal excellence, dedicated to providing exceptional 
+                    legal services with unwavering integrity and professionalism. Our team of seasoned advocates 
+                    brings together decades of combined expertise across various legal domains, ensuring our clients 
+                    receive the highest quality representation and counsel.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-8 bg-gray-50 rounded-xl service-card">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-gavel text-2xl text-blue-800"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Expert Legal Counsel</h3>
+                    <p class="text-gray-600">Comprehensive legal advice tailored to your specific needs and circumstances.</p>
+                </div>
+                <div class="text-center p-8 bg-gray-50 rounded-xl service-card">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-users text-2xl text-blue-800"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Client-Centered Approach</h3>
+                    <p class="text-gray-600">We prioritize your interests and work diligently to achieve optimal outcomes.</p>
+                </div>
+                <div class="text-center p-8 bg-gray-50 rounded-xl service-card">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-2xl text-blue-800"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Protection & Advocacy</h3>
+                    <p class="text-gray-600">Strong representation and protection of your rights in all legal matters.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Legal Team</h2>
+                <div class="w-20 h-1 bg-blue-800 mx-auto mb-8"></div>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Meet our team of dedicated legal professionals committed to delivering exceptional service 
+                    and achieving the best possible outcomes for our clients.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Aditya Tiwari -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden advocate-card">
+                    <div class="h-64 bg-gray-200 overflow-hidden">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e693299d-4eeb-4ae6-b895-dfcec228fdf6.png" alt="Professional portrait of Aditya Tiwari, senior advocate in formal suit with law books background" class="w-full h-full object-cover" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\"w-full h-full bg-blue-800 flex items-center justify-center\"><i class=\"fas fa-user-tie text-6xl text-white\"></i></div>'">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Aditya Tiwari</h3>
+                        <p class="text-blue-800 font-medium mb-4">Senior Advocate & Founder</p>
+                        <p class="text-gray-600 mb-4">With over 15 years of experience in civil and corporate law, Aditya brings exceptional expertise and dedication to every case.</p>
+                        <div class="contact-info">
+                            <p class="flex items-center mb-2">
+                                <i class="fas fa-phone mr-3 text-blue-800"></i>
+                                <a href="tel:9415450478" class="hover:text-blue-800 text-sm">+91 9415450478</a>
+                            </p>
+                            <p class="flex items-center">
+                                <i class="fas fa-envelope mr-3 text-blue-800"></i>
+                                <a href="mailto:Arya3270@gmail.com" class="hover:text-blue-800 text-sm">Arya3270@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pawan Tiwari -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden advocate-card">
+                    <div class="h-64 bg-gray-200 overflow-hidden">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a26d93d7-8eed-46ea-a952-79f6a6519081.png" alt="Pawan Tiwari, experienced lawyer in courtroom setting with legal documents" class="w-full h-full object-cover" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\"w-full h-full bg-blue-800 flex items-center justify-center\"><i class=\"fas fa-user-tie text-6xl text-white\"></i></div>'">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Pawan Tiwari</h3>
+                        <p class="text-blue-800 font-medium mb-4">Senior Litigation Lawyer</p>
+                        <p class="text-gray-600 mb-4">Specializing in criminal defense and litigation, Pawan has successfully represented clients in numerous high-profile cases.</p>
+                        <div class="contact-info">
+                            <p class="flex items-center mb-2">
+                                <i class="fas fa-phone mr-3 text-blue-800"></i>
+                                <a href="tel:+911234567890" class="hover:text-blue-800 text-sm">+91 1234567890</a>
+                            </p>
+                            <p class="flex items-center">
+                                <i class="fas fa-envelope mr-3 text-blue-800"></i>
+                                <a href="mailto:pawan@aadityalaw.com" class="hover:text-blue-800 text-sm">pawan@aadityalaw.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Anurag Tripathi -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden advocate-card">
+                    <div class="h-64 bg-gray-200 overflow-hidden">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d8a969f6-4d72-470b-8823-edeae3fdf966.png" alt="Anurag Tripathi, corporate lawyer in modern office with city skyline view" class="w-full h-full object-cover" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\"w-full h-full bg-blue-800 flex items-center justify-center\"><i class=\"fas fa-user-tie text-6xl text-white\"></i></div>'">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Anurag Tripathi</h3>
+                        <p class="text-blue-800 font-medium mb-4">Corporate Law Specialist</p>
+                        <p class="text-gray-600 mb-4">Expert in corporate law, mergers & acquisitions, and business compliance with extensive experience in corporate governance.</p>
+                        <div class="contact-info">
+                            <p class="flex items-center mb-2">
+                                <i class="fas fa-phone mr-3 text-blue-800"></i>
+                                <a href="tel:+919876543210" class="hover:text-blue-800 text-sm">+91 9876543210</a>
+                            </p>
+                            <p class="flex items-center">
+                                <i class="fas fa-envelope mr-3 text-blue-800"></i>
+                                <a href="mailto:anurag@aadityalaw.com" class="hover:text-blue-800 text-sm">anurag@aadityalaw.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Legal Services</h2>
+                <div class="w-20 h-1 bg-blue-800 mx-auto mb-8"></div>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Comprehensive legal solutions tailored to meet your specific needs and objectives.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-blue-50 p-6 rounded-lg text-center service-card">
+                    <i class="fas fa-balance-scale text-4xl text-blue-800 mb-4"></i>
+                    <h3 class="text-lg font-semibold mb-2">Civil Litigation</h3>
+                    <p class="text-gray-600 text-sm">Property disputes, contract matters, and civil rights cases</p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg text-center service-card">
+                    <i class="fas fa-building text-4xl text-blue-800 mb-4"></i>
+                    <h3 class="text-lg font-semibold mb-2">Corporate Law</h3>
+                    <p class="text-gray-600 text-sm">Business formation, compliance, and corporate governance</p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg text-center service-card">
+                    <i class="fas fa-shield-alt text-4xl text-blue-800 mb-4"></i>
+                    <h3 class="text-lg font-semibold mb-2">Criminal Defense</h3>
+                    <p class="text-gray-600 text-sm">Strong representation in criminal proceedings</p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg text-center service-card">
+                    <i class="fas fa-home text-4xl text-blue-800 mb-4"></i>
+                    <h3 class="text-lg font-semibold mb-2">Real Estate Law</h3>
+                    <p class="text-gray-600 text-sm">Property transactions and real estate disputes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto mb-8"></div>
+                <p class="text-lg text-gray-300 max-w-3xl mx-auto">
+                    Ready to discuss your legal needs? Get in touch with us today for a consultation.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-6">Get In Touch</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-blue-400 text-xl mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-semibold mb-1">Office Address</h4>
+                                <p class="text-gray-300">Shop No.A1, Dayal Residency<br>Chinhat, Lucknow-226028</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-phone text-blue-400 text-xl mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-semibold mb-1">Phone Numbers</h4>
+                                <p class="text-gray-300">
+                                    <a href="tel:9415450478" class="hover:text-blue-400 transition-colors">+91 9415450478</a><br>
+                                    <a href="tel:+911234567890" class="hover:text-blue-400 transition-colors">+91 1234567890</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-envelope text-blue-400 text-xl mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-semibold mb-1">Email Address</h4>
+                                <p class="text-gray-300">
+                                    <a href="mailto:Arya3270@gmail.com" class="hover:text-blue-400 transition-colors">Arya3270@gmail.com</a><br>
+                                    <a href="mailto:info@aadityalaw.com" class="hover:text-blue-400 transition-colors">info@aadityalaw.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-semibold mb-6">Send Us a Message</h3>
+                    <form class="space-y-4">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <input type="text" placeholder="Your Name" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500">
+                            <input type="email" placeholder="Your Email" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500">
+                        </div>
+                        <input type="text" placeholder="Subject" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500">
+                        <textarea placeholder="Your Message" rows="4" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500"></textarea>
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Aaditya Law Group</h3>
+                    <p class="text-gray-400 mb-4">Providing exceptional legal services with integrity and professionalism.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors">About</a></li>
+                        <li><a href="#team" class="text-gray-400 hover:text-white transition-colors">Our Team</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-
+<style><div class="container">
+    <section>
+        <h2>Welcome to Aaditya Law Group</h2>
+        <p>At Aaditya Law Group, we uphold the highest standards of legal excellence, offering comprehensive and tailored legal solutions to individuals, families, and businesses. Advocate Aditya Tiwari leads our dedicated team with a commitment to integrity, responsiveness, and client-centric service.</p>
+        <p>Our advice spans preventive legal counseling to adept representation in courts, ensuring your interests are safeguarded at every step.</p>
+    </section>
+
+    <section class="image-section">
+        <img src="https://images.unsplash.com/photo-1565372916396-c3a851352732?auto=format&fit=crop&w=800&q=80" alt="Law books on shelf" />
+        <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80" alt="Lawyer discussing legal documents" />
+        <img src="https://images.unsplash.com/photo-1556745753-b2904692b3cd?auto=format&fit=crop&w=800&q=80" alt="Courtroom interior" />
+    </section>
+
+    <section class="services">
+        <h2>Areas of Expertise</h2>
+        <p>Our experienced team specializes in a wide range of legal fields, including:</p>
+        <ul>
+            <li><strong>Criminal Law:</strong> Providing robust defense and prosecutorial services with an emphasis on justice and fair trial rights.</li>
+            <li><strong>Civil Litigation:</strong> Handling disputes related to contracts, property ownership, consumer rights, and personal injury claims skillfully.</li>
+            <li><strong>Corporate Law:</strong> Guiding businesses through regulatory compliance, mergers, acquisitions, contract drafting, and intellectual property matters.</li>
+            <li><strong>Property Law:</strong> Representing clients in matters such as real estate transactions, title disputes, leasing agreements, and zoning laws.</li>
+            <li><strong>Family Law:</strong> Compassionate legal counsel and representation in divorce, child custody, inheritance, and maintenance issues.</li>
+            <li><strong>Legal Consultancy:</strong> Offering thorough legal advice, document vetting, and contract preparation services tailored to client needs.</li>
+        </ul>
+        <p>We believe every client deserves clear communication, strategic legal planning, and responsive advocacy to ultimately achieve favorable outcomes.</p>
+        <p>At Aaditya Law Group, we also emphasize legal education and community engagement, regularly conducting seminars and workshops to empower individuals with legal knowledge.</p>
+        <p>Our commitment extends beyond courtrooms—offering mediation and alternative dispute resolution services to solve conflicts amicably and efficiently.</p>
+    </section>
+
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p><strong>Advocate Name:</strong> Aditya Tiwari</p>
+        <p><strong>Phone:</strong> <a href="tel:+919415450478">+91 94154 50478</a></p>
+        <p><strong>Email:</strong> <a href="mailto:Arya3270@gmail.com">Arya3270@gmail.com</a></p>
+        <p><strong>Address:</strong> C27 B2 Dayal Residency, Chinhat, Lucknow, Uttar Pradesh, India</p>
+    </section>
+</div>
+
+<footer>
+    &copy; 2025 Aaditya Law Group. All rights reserved.
+</footer>
+</style>
